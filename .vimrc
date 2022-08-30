@@ -18,6 +18,16 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set noshiftround
+set colorcolumn=81
+set autoindent
+set smartindent
+set hidden
+set completeopt=menuone,noselect
+set smarttab
+set noexpandtab
+set wrap
+set splitright
+set splitbelow
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ [BUFFER=%n]\ %{strftime('%c')}
 
 so ~/.vim/plugins.vim
