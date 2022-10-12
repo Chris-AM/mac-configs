@@ -119,8 +119,10 @@ cat << EOF >> ~/.zprofile
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
 
-
-
-
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+export PATH="/Users/c-aranguiz/Library/Python/3.9/bin":$PATH
+
+alias pip=/Users/c-aranguiz/Library/Python/3.9/bin/pip3
