@@ -77,7 +77,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -126,3 +126,9 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export PATH="/Users/c-aranguiz/Library/Python/3.9/bin":$PATH
 
 alias pip=/Users/c-aranguiz/Library/Python/3.9/bin/pip3
+
+export ANDROID_SDK_ROOT="/Users/c-aranguiz/Library/Android/sdk"
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export ANDROID_HOME=$ANDROID_SDK_ROOT
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+
